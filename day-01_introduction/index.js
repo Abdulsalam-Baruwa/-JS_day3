@@ -12,3 +12,9 @@ let name;
 let age;
 let isMale;
 let bodyMassIndex;
+
+// declare four variables with assigned values
+const PI = 3.142;
+const GRAVITY = `${9.8}m/s`;
+let isRound = false;
+let author = null;
