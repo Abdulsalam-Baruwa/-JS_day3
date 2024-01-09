@@ -28,3 +28,10 @@ let age = 20;
 
 // Declare variables to store your first name, last name, marital status, country and age in a single line.
 firstName = "Abdulsalam", lastName = "Baruwa", isMarried = false, country = "Nigeria", age = 20;
+
+// Declare two variables myAge and yourAge and assign them initial values and log to the browser console
+let myAge = 25;
+let yourAge = 30;
+
+console.log(`I am ${myAge} years old.`);
+console.log(`You are ${yourAge} years old.`);
