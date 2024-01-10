@@ -1,3 +1,5 @@
+'use strict';
+
 // Declare a function fullName and it print out your full name.
 
 // const fullName = function () {
