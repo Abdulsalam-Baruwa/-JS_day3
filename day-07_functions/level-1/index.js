@@ -22,3 +22,9 @@ const areaOfRectangle = function (length, width) {
     area = length * width;
     return area;
 }
+
+// A perimeter of a rectangle is calculated as follows: perimeter= 2x(length + width). Write a function which calculates perimeterOfRectangle
+const perimeterOfRectangle = function (length, width) {
+    const perimeter = 2 * (length + width);
+    return perimeter;
+}
