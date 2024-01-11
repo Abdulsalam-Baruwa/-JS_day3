@@ -16,3 +16,9 @@ const addNumbers = function (x, y) {
     const sum = x + y;
     return sum;
 }
+
+// An area of a rectangle is calculated as follows: area = length x width. Write a function which calculates areaOfRectangle
+const areaOfRectangle = function (length, width) {
+    area = length * width;
+    return area;
+}
