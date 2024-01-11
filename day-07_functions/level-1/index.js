@@ -10,3 +10,9 @@
 const fullName = function (firstName, lastName) {
     return `${firstName} ${lastName}`;
 }
+
+// Declare a function addNumbers and it takes two two parameters and it returns sum
+const addNumbers = function (x, y) {
+    const sum = x + y;
+    return sum;
+}
