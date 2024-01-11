@@ -28,3 +28,18 @@ const perimeterOfRectangle = function (length, width) {
     const perimeter = 2 * (length + width);
     return perimeter;
 }
+
+// Math.max returns its largest argument. Write a function findMax that takes three arguments and returns their maximum with out using Math.max method.
+const findMax = function (x, y, z) {
+    const arrOfNum = [x, y, z];
+    let largestNum = x;
+    for (let i = 0; i < arrOfNum.length; i++) {
+        if (arrOfNum[i] > largestNum) {
+            largestNum = arrOfNum[i];
+        }
+    }
+    return largestNum;
+}
+// test
+console.log(findMax(0, 20, 25));
+console.log(findMax(0, -10, -2));
